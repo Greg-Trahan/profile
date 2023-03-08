@@ -42,36 +42,36 @@ const ProjectPage = (props) => {
     title: "Smorgesbord",
     gitHub: <a href="https://github.com/Greg-Trahan/smorgasbord">Click Here for the GitHub Repo</a>,
     deploy: <a href="https://smorgasbord.herokuapp.com/">Click Here for the Live Website</a>,
-    description: "aaa",
-    stack: "aaa"
+    description: "Smorgasbord is a website for users to post and view favorite restaraunts. Users can view others restraunts that have been posted, as well as review the postings of others. Each user has a personal profile for easy access to their own favorite restaraunts.",
+    stack: "Express, MySQL2, Sequelize, Node, Bootstrap, JavaScript"
   },
   {
     title: "ListenIn",
     gitHub: <a href="https://github.com/Greg-Trahan/ListenIn">Click Here for the GitHub Repo</a>,
     deploy: <a href="https://greg-trahan.github.io/ListenIn/">Click Here for the Live Website</a>,
-    description: "bbb",
-    stack: "bbb"
+    description: "The following application presents the user with an interactive webpage to search for a music artist. It will then pull up the artists top albums and tops songs. When the artist is found, a dyanmicaly created slide of the artist album covers is displayed where the user can scroll through and select an album to see its song titles and then click on a song to go to another webpage where the song can be played. Other functionality includes a history of most recently searched artists.",
+    stack: "Last.FM API, Javascript, GlideJS, jQuery, Bootstrap"
   },
   {
     title: "Mongo Social Network",
     gitHub: <a href="https://github.com/Greg-Trahan/social-network">Click Here for the GitHub Repo</a>,
     deploy: "This project does not have a live site",
-    description: "ccc",
-    stack: "ccc"
+    description: "In this interface, a user can add themselves to the database, and add other users as friends. You can also leave thoughts for others and react to the thoughts that other people leave you.",
+    stack: "Express, MongoDB, Mongoose, Node, Javascript"
   },
   {
     title: "MySQL Employee Database",
     gitHub: <a href="https://github.com/Greg-Trahan/12-employee-database">Click Here for the GitHub Repo</a>,
     deploy: "This project does not have a live site",
-    description: "ddd",
-    stack: "ddd"
+    description: "This application can be used to display lists information on departments, roles and employees from a company stored in a mySQL database. The information can be accessed and added or modified from the terminal.",
+    stack: "MySQL, Javascript"
   },
   {
     title: "Weather Dashboard",
     gitHub: <a href="https://github.com/Greg-Trahan/06-weekly-weather">Click Here for the GitHub Repo</a>,
     deploy: <a href="https://greg-trahan.github.io/06-weekly-weather/">Click Here for the Live Website</a>,
-    description: "eee",
-    stack: "eee"
+    description: "I constructed a webpage from scratch that will display the weather for the upcoming week for Minneapolis MN, based on data from the openweathermap.org API. Users can additionally choose to enter any other city to recieve weather information about that city. The cities entered are saved to local storage and displayed so they can be easilly accessed in the future.",
+    stack: "OpenWeather API, Javascript, CS, Bootstrap"
   }
 ]
   
