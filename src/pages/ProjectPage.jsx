@@ -1,10 +1,17 @@
 import {useState} from 'react'
 import Button from 'react-bootstrap/Button'
 import Modal from 'react-bootstrap/Modal'
+import checkBack from "../assets/checkBack.png"
+import smorgesbord from "../assets/smorgesbord.png"
+import listenIn from "../assets/ListenIn.png"
+import socialNetwork from "../assets/social-network.png"
+import database from "../assets/employee-database.PNG"
+import weatherApp from "../assets/WeatherApp.PNG"
+
 
 const styleObj = {
   img: {width:"15em", paddingBottom: "1em"},
-  div: {border:"solid black 2px", borderRadius: "20px", display:"flex", justifyContent: "center", backgroundColor: "#3f3f3f"}
+  div: {border:"solid black 2px", borderRadius: "20px", display:"flex", justifyContent: "center", backgroundColor: "#ececec"}
 }
 
 const ProjectPage = (props) => {
@@ -70,43 +77,43 @@ const ProjectPage = (props) => {
   
   return (
     <div>
-      <h1>My Projects</h1>
+      <h1 style={{textAlign: "center", padding: "20px"}}>My Projects</h1>
       <div className="container">
         <div className="row">
           <div className="col-lg-4 col-md-6 col-sm-12" style={styleObj.div}>
             <div style={{textAlign: "center"}}>
               <h3 onClick={handleShow} data-name="0">In Process</h3>
-              <img src="./assets/checkBack.PNG" onClick={handleShow} data-name="0" alt="Current Project" style={styleObj.img}></img>
+              <img src={checkBack} onClick={handleShow} data-name="0" alt="Current Project" style={styleObj.img}></img>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 col-sm-12" style={styleObj.div}>
             <div style={{textAlign: "center"}}> 
               <h3 data-name="1" onClick={handleShow}>Smorgesbord</h3>
-              <img src="./assets/smorgesbord.png" data-name="1" onClick={handleShow} alt="Smorgesbord project" style={styleObj.img}></img>
+              <img src={smorgesbord} data-name="1" onClick={handleShow} alt="Smorgesbord project" style={styleObj.img}></img>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 col-sm-12" style={styleObj.div}>            
             <div style={{textAlign: "center"}}> 
               <h3 data-name="2" onClick={handleShow}>ListenIn</h3>
-              <img src="./assets/listenin.png" data-name="2" onClick={handleShow} alt="ListenIn project" style={styleObj.img}></img>
+              <img src={listenIn} data-name="2" onClick={handleShow} alt="ListenIn project" style={styleObj.img}></img>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 col-sm-12" style={styleObj.div}>
             <div style={{textAlign: "center"}}>
                <h3 data-name="3" onClick={handleShow}>Mongo Social Network</h3>
-              <img src="./assets/social-network.png" data-name="3" onClick={handleShow} alt="Mongo social network project" style={styleObj.img}></img>
+              <img src={socialNetwork} data-name="3" onClick={handleShow} alt="Mongo social network project" style={styleObj.img}></img>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 col-sm-12" style={styleObj.div}>
             <div style={{textAlign: "center"}}>
                <h3 data-name="4" onClick={handleShow}>MySQL Employee Database</h3>
-              <img src="./assets/employee-database.PNG" data-name="4" onClick={handleShow} alt="MySQL Employee Database project" style={styleObj.img}></img>
+              <img src={database} data-name="4" onClick={handleShow} alt="MySQL Employee Database project" style={styleObj.img}></img>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 col-sm-12" style={styleObj.div}>
             <div style={{textAlign: "center"}}>
               <h3 data-name="5" onClick={handleShow}>Weather Dashboard</h3>
-              <img src="./assets/weatherApp.PNG" data-name="5" onClick={handleShow} alt="Weather Dashboard project" style={styleObj.img}></img>
+              <img src={weatherApp} data-name="5" onClick={handleShow} alt="Weather Dashboard project" style={styleObj.img}></img>
             </div>
           </div>
         </div>

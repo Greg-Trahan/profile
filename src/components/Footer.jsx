@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer>
       <nav style={{display:"flex"}}>
-        <div style={{background: "#316bad", position: "fixed", bottom:"0", width: "100%"}}>
+        <div style={{background: "#FAF9F6", position: "fixed", bottom:"0", width: "100%"}}>
           <ul style={{listStyleType:"none", display: "flex", margin:"0px", padding:"5px", justifyContent:"center"}}>
             <li className="nav-item" style={{justifyContent:"center"}}>
               <a href="https://github.com/Greg-Trahan" >

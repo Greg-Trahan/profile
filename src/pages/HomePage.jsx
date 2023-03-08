@@ -1,18 +1,32 @@
+import headShot from "../assets/HeadShot.jpg"
+
+const styleObj = {
+  img: {width:"250px", height:"350px", paddingBottom: "1em", borderRadius: "90px"},
+  flex: {display: "flex"},
+  textBox: {padding: "10px"},
+  p: {textAlign: "center"}
+}
+
+
 const HomePage = (props) => {
 
   return (
     <div>
-      <h1>About Me</h1>
-      <h3>My name is Greg Trahan, welcome to my portfolio!</h3>
-      <p>I am an emerging full-stack web developer, having recently finished my training through the University of Minnesota. Through my coursework, I learned the core skills I will need to succeed in a position as a web developer, such as REST API methods and the MERN technology stack. I also am proficient in other technologies including jQuery, Sequelize, Bootstrap, Git, Microsoft Office, and Python. I am excited to put the skills to work as I begin a career developing brililant and engaging websites.</p>
+      
+      <div style={styleObj.flex}>
+        <img src={headShot} style={styleObj.img}></img>
+        
+        <div style={styleObj.textBox}>
+          <h1 style = {styleObj.p}>About Me</h1>
+          <h3  style = {styleObj.p}>My name is Greg Trahan, welcome to my portfolio!</h3>
+          <p style = {styleObj.p}>I am an emerging full-stack web developer, based in St. Paul Minnesota. I recently graduated from the University of Minnesota full stack coding bootcamp. Through my coursework, I learned the core skills to web deveopment and gained hands-on experience building web applications.</p>
 
-      <p>Proior to training in web development, I spent 5 years working as a Molecular Biologist. During that time I gained valuable experience in detail-oriented work and time management skills with projects like molecular cloning and aseptic cell culture.</p>
+          <p style = {styleObj.p}>
+          During the bootcamp, I learned how to develop full-stack web applications using a varitety of front-end and back-end technologies. These include tools such as JavaScript, React, REST APIs, NodeJS, Express, MySQL and MongoDB. I also am proficient in other associated tools including jQuery, Sequelize, Bootstrap, Git, Microsoft Office, and Python. </p>
 
-
-      <h4>I've been developing, and managing the development of, enterprise-level interactive Web applications since the early 1990s. I am an unusual and valuable blend of communications expertise, technology understanding and vision, and development skill -- and I have worked in all phases of the interactive process, from strategic planning to project/account management to in-the-trenches development.</h4>
-
-      <h4>I'm well-versed in Agile management practices and can manage clients, projects, and/or development teams. I'm highly-experienced with most modern management tech stacks, such as Jira, Slack, Trello, the Google Suite, etc. I'm also well-versed with using Google Analytics, Google Tag Manager, and Google Optimize, and the principles of A/B and Multivariate testing.</h4>
-
+          <p style = {styleObj.p}>Now I am excited to put the skills I learned to work and to collaborate with experienced developers as I begin a career developing brililant and engaging websites. Proior to training in web development, I spent 5 years working as a Molecular Biologist. During that time I gained valuable experience in detail-oriented work and time management skills on developing treatments for genetic, collagen based disorders.</p>
+        </div>
+      </div>
     </div>
   )
 }
