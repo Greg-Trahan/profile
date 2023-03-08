@@ -9,10 +9,10 @@ function App() {
       <Header />
       <Wrapper>
         <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/contact" element={<ContactPage />} />
-          <Route path="/projects" element={<ProjectPage />} />
-          <Route path="/resume" element={<ResumePage />} />
+          <Route path="/profile" element={<HomePage />} />
+          <Route path="/profile/contact" element={<ContactPage />} />
+          <Route path="/profile/projects" element={<ProjectPage />} />
+          <Route path="/profile/resume" element={<ResumePage />} />
         </Routes>
       </Wrapper>
       <Footer />
