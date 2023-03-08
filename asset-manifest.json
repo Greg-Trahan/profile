@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.44f8b8b5.css",
-    "main.js": "/static/js/main.0c4eea5c.js",
-    "static/js/787.bb6fc335.chunk.js": "/static/js/787.bb6fc335.chunk.js",
-    "static/media/HeadShot.jpg": "/static/media/HeadShot.624406c0215851c969f6.jpg",
-    "static/media/ListenIn.png": "/static/media/ListenIn.1a7796ad8aebcf310337.png",
-    "static/media/smorgesbord.png": "/static/media/smorgesbord.5be65414ddce17b71bf5.png",
-    "static/media/WeatherApp.PNG": "/static/media/WeatherApp.98246f613ab243a18b95.PNG",
-    "static/media/gregsResume.pdf": "/static/media/gregsResume.d9bf480d103e0fc9b769.pdf",
-    "static/media/social-network.png": "/static/media/social-network.21cd5e4353da5e37c155.png",
-    "static/media/employee-database.PNG": "/static/media/employee-database.c91d681844f4d64787b5.PNG",
-    "static/media/GitHub-Mark.png": "/static/media/GitHub-Mark.99725f1efd0ab6c0fdb8.png",
-    "index.html": "/index.html",
-    "main.44f8b8b5.css.map": "/static/css/main.44f8b8b5.css.map",
-    "main.0c4eea5c.js.map": "/static/js/main.0c4eea5c.js.map",
-    "787.bb6fc335.chunk.js.map": "/static/js/787.bb6fc335.chunk.js.map"
+    "main.css": "/profile/static/css/main.44f8b8b5.css",
+    "main.js": "/profile/static/js/main.c43e63b1.js",
+    "static/js/787.bb6fc335.chunk.js": "/profile/static/js/787.bb6fc335.chunk.js",
+    "static/media/HeadShot.jpg": "/profile/static/media/HeadShot.624406c0215851c969f6.jpg",
+    "static/media/ListenIn.png": "/profile/static/media/ListenIn.1a7796ad8aebcf310337.png",
+    "static/media/smorgesbord.png": "/profile/static/media/smorgesbord.5be65414ddce17b71bf5.png",
+    "static/media/WeatherApp.PNG": "/profile/static/media/WeatherApp.98246f613ab243a18b95.PNG",
+    "static/media/gregsResume.pdf": "/profile/static/media/gregsResume.d9bf480d103e0fc9b769.pdf",
+    "static/media/social-network.png": "/profile/static/media/social-network.21cd5e4353da5e37c155.png",
+    "static/media/employee-database.PNG": "/profile/static/media/employee-database.c91d681844f4d64787b5.PNG",
+    "static/media/GitHub-Mark.png": "/profile/static/media/GitHub-Mark.99725f1efd0ab6c0fdb8.png",
+    "index.html": "/profile/index.html",
+    "main.44f8b8b5.css.map": "/profile/static/css/main.44f8b8b5.css.map",
+    "main.c43e63b1.js.map": "/profile/static/js/main.c43e63b1.js.map",
+    "787.bb6fc335.chunk.js.map": "/profile/static/js/787.bb6fc335.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.44f8b8b5.css",
-    "static/js/main.0c4eea5c.js"
+    "static/js/main.c43e63b1.js"
   ]
 }
