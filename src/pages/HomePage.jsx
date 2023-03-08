@@ -22,9 +22,9 @@ const HomePage = (props) => {
           <p style = {styleObj.p}>I am an emerging full-stack web developer, based in St. Paul Minnesota. I recently graduated from the University of Minnesota full stack coding bootcamp. Through my coursework, I learned the core skills to web deveopment and gained hands-on experience building web applications.</p>
 
           <p style = {styleObj.p}>
-          During the bootcamp, I learned how to develop full-stack web applications using a varitety of front-end and back-end technologies. These include tools such as JavaScript, React, REST APIs, NodeJS, Express, MySQL and MongoDB. I also am proficient in other associated tools including jQuery, Sequelize, Bootstrap, Git, Microsoft Office, and Python. </p>
+          During the bootcamp, I learned how to develop full-stack web applications using a varitety of front-end and back-end technologies. These include tools such as JavaScript, React, REST APIs, NodeJS, Express, MySQL and MongoDB. I also am proficient in other associated tools including jQuery, Sequelize, Bootstrap and Git, as well as Microsoft Office and Python. </p>
 
-          <p style = {styleObj.p}>Now I am excited to put the skills I learned to work and to collaborate with experienced developers as I begin a career developing brililant and engaging websites. Proior to training in web development, I spent 5 years working as a Molecular Biologist. During that time I gained valuable experience in detail-oriented work and time management skills on developing treatments for genetic, collagen based disorders.</p>
+          <p style = {styleObj.p}>Now I am excited to put the skills I learned to work and to collaborate with experienced developers as I begin a career developing brililant and engaging websites. Proior to training in web development, I spent 5 years working as a Molecular Biologist. During that time I gained valuable experience in detail-oriented work and time management skills while developing treatments for genetic, collagen based disorders.</p>
         </div>
       </div>
     </div>

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
@@ -6,16 +7,16 @@ const Header = () => {
         <div style={{background: "#FAF9F6"}}>
           <ul style={{listStyleType:"none", display: "flex", margin:"0px", padding:"5px"}}>
             <li className="nav-item">
-              <a className="nav-link active"  href="/profile" style={{textDecoration: "underline", fontSize: "1.2em", paddingLeft: "2em"}}>Home</a>
+              <Link className="nav-link active"  to="/profile" style={{textDecoration: "underline", fontSize: "1.2em", paddingLeft: "2em"}}>Home</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/profile/projects" style={{textDecoration: "underline", fontSize: "1.2em", paddingLeft: "2em"}}>My Projects</a>
+              <Link className="nav-link" to="/profile/projects" style={{textDecoration: "underline", fontSize: "1.2em", paddingLeft: "2em"}}>My Projects</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/profile/contact" style={{textDecoration: "underline", fontSize: "1.2em", paddingLeft: "2em"}}>Contact Me</a>
+              <Link className="nav-link" to="/profile/contact" style={{textDecoration: "underline", fontSize: "1.2em", paddingLeft: "2em"}}>Contact Me</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/profile/resume" style={{textDecoration: "underline", fontSize: "1.2em", paddingLeft: "2em"}}>Resume</a>
+              <Link className="nav-link" to="/profile/resume" style={{textDecoration: "underline", fontSize: "1.2em", paddingLeft: "2em"}}>Resume</Link>
             </li>
           </ul>
         </div>
