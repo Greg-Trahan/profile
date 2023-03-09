@@ -4,7 +4,7 @@ Name: Greg Trahan
 
 Click [here](https://github.com/Greg-Trahan/profile) to see my final project.
 
-Click [here] (https://Greg-Trahan.github.io/profile/) to see the live site.
+Click [here](https://Greg-Trahan.github.io/profile/) to see the live site.
 
 ## Description
 
