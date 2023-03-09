@@ -10,7 +10,7 @@ import weatherApp from "../assets/WeatherApp.PNG"
 
 
 const styleObj = {
-  img: {width:"15em", paddingBottom: "1em"},
+  img: {width:"15em", paddingBottom: "1em", height: "15em"},
   div: {border:"solid black 2px", borderRadius: "20px", backgroundColor: "#ececec", textAlign: "center"}
 }
 

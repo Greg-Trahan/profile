@@ -50,6 +50,7 @@ const ContactPage = (props) => {
   return (
     <div>
       <h3 style={styleObj.h3}>Please feel free to reach out if you have any questions!</h3>
+      <h4 style={styleObj.h3}>trahgr01@gmail.com</h4>
         <form onSubmit={handleSubmit} style={styleObj.container}>
           <div style={styleObj.div}>
             <div style={styleObj.div}>
