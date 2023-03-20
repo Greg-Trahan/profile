@@ -1,0 +1,16 @@
+@media screen and (min-width: 900px) {
+  #headshot {
+    box-shadow: 0 4px 8px 0 black;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #headshot {
+    box-shadow: 0 4px 8px 0 black;
+  }
+}
