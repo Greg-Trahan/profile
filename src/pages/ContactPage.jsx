@@ -1,5 +1,6 @@
 import {useState} from "react"
 import { send } from 'emailjs-com';
+import {Modal} from '../components';
 
 const styleObj = {
   h3: {paddingBottom: "1em", textAlign: "center"},
@@ -10,12 +11,10 @@ const styleObj = {
 }
 
 const ContactPage = (props) => {
-
-  const [ userData, setUserData ] = useState({
-    from_name: "",
-    userEmail: "",
-    message: ""
-  })
+  const defaultForm = {from_name: "", userEmail: "", message: ""}
+  const [ userData, setUserData ] = useState(defaultForm)
+  const [showModal, setShowModal] = useState(false);
+  const [message, setMessage] = useState("");
 
   const handleBlur = (event) => {
     if (event.target.value === ""){
@@ -30,20 +29,34 @@ const ContactPage = (props) => {
     })
   };
 
+    const openModal = () => {
+    setShowModal(true);
+  };
+
+  const closeModal = () => {
+    setShowModal(false);
+  };
+
   const handleSubmit = (event) => {
     event.preventDefault();
-    send(
-      "service_990b138",
-      "template_gliz19o",
-      userData,
-      "FptF138cWWivyfvZg"
-    )
-    .then((response) => {
-      console.log("Your comments have been sent!", response.status, response.text)
-    })
-    .catch((err) => {
-      console.log("Your message failed to send")
-    })
+    if (userData && userData.from_name && userData.userEmail && userData.message){
+      send(
+        "service_990b138",
+        "template_gliz19o",
+        userData,
+        "FptF138cWWivyfvZg"
+      )    
+      .then((response) => {
+        console.log("Your comments have been sent!", response.status, response.text)
+      })
+      .catch((err) => {
+        console.log("Your message failed to send")
+      })
+      setUserData({from_name: "", userEmail: "", message: ""})
+    } else {
+      setMessage('Please fill out all fields')
+      openModal()
+    }
   };
   
 
@@ -51,6 +64,9 @@ const ContactPage = (props) => {
     <div>
       <h3 style={styleObj.h3}>Please feel free to reach out if you have any questions!</h3>
       <h4 style={styleObj.h3}> You can reach me at trahgr01@gmail.com or thorugh the form below</h4>
+
+        {showModal ? <Modal message={message} closeModal={closeModal} /> : null}
+
         <form onSubmit={handleSubmit} style={styleObj.container}>
           <div style={styleObj.div}>
             <div style={styleObj.div}>
