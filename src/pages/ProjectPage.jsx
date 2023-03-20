@@ -7,6 +7,7 @@ import listenIn from "../assets/ListenIn.png"
 import socialNetwork from "../assets/social-network.png"
 import database from "../assets/employee-database.PNG"
 import weatherApp from "../assets/WeatherApp.PNG"
+import datingMapp from "../assets/dating-mapp.PNG"
 
 
 const styleObj = {
@@ -32,7 +33,7 @@ const ProjectPage = (props) => {
 
   const projectData = [
     {
-      title: "Project Mapp",
+      title: "Dating Mapp",
       gitHub: <a href="https://github.com/strongjaw15/the-dating-mapp">Click Here for the GitHub Repo</a>,
       deploy: <a href="https://the-dating-mapp.herokuapp.com/">Click Here for the Live Website</a>,
       description: "Dating Mapp is the place to go when you're looking for love! Dating Mapp takes user interests as an input and matches you with others with similar interests. IT separates itself from other dating apps by also reccomending a location that we think you would enjoy a date at! Currently, the scope is limited to the area around St. Paul Minnesota.",
@@ -83,8 +84,8 @@ const ProjectPage = (props) => {
         <div className="row">
           <div className="col-lg-4 col-md-6 col-sm-12" style={{padding: "5px"}}>
             <div style={styleObj.div}>
-              <h3 onClick={handleShow} data-name="0">In Process</h3>
-              <img src={checkBack} onClick={handleShow} data-name="0" alt="Current Project" style={styleObj.img}></img>
+              <h3 onClick={handleShow} data-name="0">Dating Mapp</h3>
+              <img src={datingMapp} onClick={handleShow} data-name="0" alt="Dating Mapp project" style={styleObj.img}></img>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 col-sm-12" style={{padding: "5px"}}>
