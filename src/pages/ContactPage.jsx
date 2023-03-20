@@ -53,6 +53,8 @@ const ContactPage = (props) => {
         console.log("Your message failed to send")
       })
       setUserData({from_name: "", userEmail: "", message: ""})
+      setMessage(`Your message has been sent!`);
+      openModal();
     } else {
       setMessage('Please fill out all fields')
       openModal()
