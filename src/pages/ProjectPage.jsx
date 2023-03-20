@@ -78,6 +78,7 @@ const ProjectPage = (props) => {
   return (
     <div>
       <h1 style={{textAlign: "center", padding: "20px"}}>My Projects</h1>
+      <h3 style={{textAlign: "center", padding: "20px"}}>Select a project for more details</h3>
       <div className="container">
         <div className="row">
           <div className="col-lg-4 col-md-6 col-sm-12" style={{padding: "5px"}}>
