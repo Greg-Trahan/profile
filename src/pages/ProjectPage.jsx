@@ -32,11 +32,11 @@ const ProjectPage = (props) => {
 
   const projectData = [
     {
-      title: "This project is still being worked on",
-      gitHub: "",
-      deploy: "",
-      description: "Please check back in a few days!",
-      stack: ""
+      title: "Project Mapp",
+      gitHub: <a href="https://github.com/strongjaw15/the-dating-mapp">Click Here for the GitHub Repo</a>,
+      deploy: <a href="https://the-dating-mapp.herokuapp.com/">Click Here for the Live Website</a>,
+      description: "Dating Mapp is the place to go when you're looking for love! Dating Mapp takes user interests as an input and matches you with others with similar interests. IT separates itself from other dating apps by also reccomending a location that we think you would enjoy a date at! Currently, the scope is limited to the area around St. Paul Minnesota.",
+      stack: "React, MongoDB, React Google Maps App, Animate.css, Express, React Bootstrap"
     },
     {
     title: "Smorgesbord",
