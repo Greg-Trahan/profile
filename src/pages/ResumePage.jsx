@@ -1,4 +1,4 @@
-import resume from "../assets/gregsResume.pdf"
+import resume from "../assets/gregsResume2.pdf"
 
 const ResumePage = (props) => {
 
